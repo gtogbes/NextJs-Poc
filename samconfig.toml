@@ -1,0 +1,9 @@
+version = 0.1
+[default.deploy.parameters]
+stack_name = "nextpoc4"
+resolve_s3 = true
+s3_prefix = "nextpoc4"
+region = "eu-west-2"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = ["NextjsFunction=983883494204.dkr.ecr.eu-west-2.amazonaws.com/nextjspoc1d09dd0a82/nextjsfunction032c9ef3repo"]
