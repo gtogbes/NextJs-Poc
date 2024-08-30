@@ -3,8 +3,6 @@ Transform: AWS::Serverless-2016-10-31
 Description: >
   serverless-nextjs-demo
 
-  Sample SAM Template for serverless-nextjs-demo
-  
 Globals:
   Function:
     Timeout: 10

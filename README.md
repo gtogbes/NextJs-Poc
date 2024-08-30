@@ -49,4 +49,8 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 
+For Load Testing, Install k6, Remember to use correct endpoints in the nextload.js file.
+Run k6 run nextload.js
+
+
 
